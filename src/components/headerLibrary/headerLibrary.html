@@ -1,0 +1,69 @@
+<header class="library">
+  <div class="container">
+    <div class="nav__wrapper">
+      <a class="header__logo" href="./index.html">
+        <svg class="header__icon">
+          <use href="./images/sprite.svg#film"></use>
+        </svg>
+        <h1 class="header__title">Filmoteka</h1></a
+      >
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="./index.html">Home</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--active" href="./myLibrary.html"
+            >My Library</a
+          >
+        </li>
+        <li class="nav__item nav__signIn">
+          <a class="nav__link signIn-link" href="#">Sign in</a>
+        </li>
+        <li class="nav__item nav__account">
+          <span class="nav__link account-btn">My account</span>
+          <ul class="account__list">
+            <li class="account__item account__profile" data-account-open>
+              Profile
+            </li>
+            <li class="account__item account__logout">
+              Log out
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="btn__wrapper">
+      <button class="btn btn__watched" data-display-selector="watched">
+        Watched
+      </button>
+      <button class="btn btn--active btn__queue" data-display-selector="queue">
+        Queue
+      </button>
+    </div>
+
+     <!-- ////////////////DAY-NIGHT///////////// -->
+
+    <div class="toolbar">
+      <div class="theme-switch">
+        <svg class="theme-switch__icon">
+          <use href="./images/sprite.svg#sun"></use>
+        </svg>
+
+        <div class="theme-switch__control">
+          <input
+            class="theme-switch__toggle"
+            type="checkbox"
+            name="theme"
+            id="theme-switch-toggle"
+          />
+          <label class="theme-switch__track" for="theme-switch-toggle"> </label>
+          <div class="theme-switch__marker"></div>
+        </div>
+
+        <svg class="theme-switch__icon">
+          <use href="./images/sprite.svg#moon"></use>
+        </svg>
+      </div>
+  </div>
+</header>

@@ -1,0 +1,43 @@
+@import 'scss/variables';
+@import 'scss/mixin';
+@import 'scss/container.scss';
+@import 'scss/loader.scss';
+
+
+body {
+  box-sizing: border-box;
+  font-family: $mainFont;
+  background-color: $bodyBgColor;
+  @include size(12px);
+  color: $fontColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}

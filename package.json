@@ -1,0 +1,37 @@
+{
+  "name": "project-Filmoteka",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://SGlinkau.github.io/project-Filmoteka",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /project-Filmoteka/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGlinkau/project-Filmoteka.git"
+  },
+  "keywords": [],
+  "author": "Sławomir Glinkau <slawomir.glinkau@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SGlinkau/project-Filmoteka/issues"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "firebase": "^9.9.0",
+    "js-confetti": "^0.10.2",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.5.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
