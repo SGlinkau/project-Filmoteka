@@ -1,6 +1,3 @@
-// Modal z twórcami
-import '../teamModal/teamModal';
-
 // Style SCSS dla wyświetlania kart
 import './loadMoviesList.scss';
 
